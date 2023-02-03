@@ -9,9 +9,9 @@
 <html>
 <head>
     <title>User Profile</title>
-    <jsp:include page="partials/head.jsp"/>
 <body>
-    <jsp:include page="partials/navbar.jsp" />
+<h1>Welcome to Adlister, ${username}</h1>
+    <jsp:include page="navbar.jsp" />
 
 
 </body>
