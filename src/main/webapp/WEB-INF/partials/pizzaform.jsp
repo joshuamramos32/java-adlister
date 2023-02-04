@@ -12,42 +12,40 @@
 </head>
 <body>
 <h1>Pizza Order Form</h1>
-<form action="pizza-order" method="Post">
+<form action="/pizza-order" method="post">
     <label for="name">Name</label>
-     <input type="text" id="name" name="name"><br>
+    <input type="text" id="name" name="name"><br>
     <label for="email">Email</label>
-        <input type="text" id="email" name="email"><br>
+    <input type="text" id="email" name="email"><br>
     <label for="crust">Crust</label>
-        <select name="crust" id="crust">
-    <option value="Thin">Thin</option>
-    <option value="Pan">Pan</option>
-    <option value="Stuffed">Stuffed</option>
-        </select><br>
+    <select name="crust" id="crust">
+        <option value="Thin">Thin</option>
+        <option value="Pan">Pan</option>
+        <option value="Stuffed">Stuffed</option>
+    </select><br>
     <label for="sauce">Choose your sauce!</label>
-        <select name="sauce" id="sauce">
-    <option value="Marinara">Marinara</option>
-    <option value="White Garlic">White Garlic</option>
-    <option value="No sauce">No sauce</option>
-        </select><br>
+    <select name="sauce" id="sauce">
+        <option value="Marinara">Marinara</option>
+        <option value="White Garlic">White Garlic</option>
+        <option value="No sauce">No sauce</option>
+    </select><br>
     <label for="size">Size</label>
-        <select name="size" id="size">
-    <option value="small">Small</option>
-    <option value="medium">Medium</option>
-    <option value="large">Large</option>
-        </select><br>
-    <label for="toppings">Toppings</label><br>
+    <select name="size" id="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+    </select><br>
     <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni">
     <label for="pepperoni">Pepperoni</label>
-        <input type="checkbox" id="cheese" name="toppings" value="Cheese">
+    <input type="checkbox" id="cheese" name="toppings" value="Cheese">
     <label for="cheese">Cheese</label>
-        <input type="checkbox" id="supreme" name="toppings" value="Supreme">
+    <input type="checkbox" id="supreme" name="toppings" value="Supreme">
     <label for="supreme">Supreme</label>
-            <br>
+    <br>
     <label for="address">Delivery Address</label>
-        <input type="text"id="address"name="address"><br>
-        <input type="submit"value="Submit Order">
+    <input type="text" id="address" name="address"><br>
+    <input type="submit" value="Submit Order">
 </form>
-
-
 </body>
 </html>
+
