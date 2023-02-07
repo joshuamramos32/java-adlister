@@ -1,3 +1,4 @@
+//This provides us access to our DAO hence the name.
 public class DaoFactory {
     private static Ads adsDao;
 

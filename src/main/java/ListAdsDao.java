@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+//This is the DAO implementation
 public class ListAdsDao implements Ads {
     private List<Ad> ads;
 

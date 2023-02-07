@@ -1,4 +1,7 @@
-public class Ad {
+import java.io.Serializable;
+//This is the Model or JavaBean
+
+public class Ad  implements Serializable {
     private long id;
     private long userId;
     private String title;
