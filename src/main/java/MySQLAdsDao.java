@@ -9,7 +9,7 @@ public class MySQLAdsDao implements Ads {
     private Connection connection = null;
 
 
-    public  MySQLAdsDao(Config config) {
+    public MySQLAdsDao(Config config) {
         try {
             DriverManager.registerDriver(new Driver());
             connection = DriverManager.getConnection(
@@ -21,4 +21,17 @@ public class MySQLAdsDao implements Ads {
             throw new RuntimeException("Error connecting to database.", e);
         }
     }
+
+    @Override
+    public List<Ad> all() {
+        return null;
+    }
+
+    @Override
+    public Long insert(Ad ad) {
+        return null;
+    }
+}
+
+
 
